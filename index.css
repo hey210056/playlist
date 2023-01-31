@@ -1,0 +1,26 @@
+:root {
+  /*color*/
+  --color-white: #fff;
+  --color-black: #000;
+  --color-vivaMagenta: #bb2649;
+  --color-gray1: #646464;
+  --color-gray2: #7c7c7c;
+  --color-gray3: #9f9f9f;
+  --color-paleDogwood: #edcdc2;
+  --color-paleKhaki: #bfaf92;
+  --color-planeAir: #bfcad6;
+}
+
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
